@@ -1,0 +1,129 @@
+<div class="navbar">
+  <p class="navbar-brand reds">ReaganMatch</p>
+
+  <p class="navbar-text pull-right"><a href="#">Sign Out</a></p>
+</div>
+
+<div class="myContainer blackBorder">
+
+		<div class="row center-block"> 
+			<br>
+			<div class=" col-md-12 col-sm-12">
+				<a href="#viewInformation" class="btn btn-default "> <i class="fa fa-edit"></i>&nbsp; View</a>
+			 	<button id="add" class="btn btn-default "><i style="color:green;" class="fa fa-plus-circle fa-1x "></i> &nbsp;  Add Student </button>
+				<button id="match" class="btn btn-default "> <i class="reds fa fa-book"></i>&nbsp; Match</button>
+			 	<a href="#settings" class="btn btn-default "><i style="color:orange;" class="fa fa-cog "></i> &nbsp;  Settings </a>
+			</div>
+
+			<div class=" col-md-12 col-sm-12" id="addingInfoForm">
+									<br>
+				<div class="panel panel-default col-md-12 col-sm-12">
+
+				<form  class="" id="myForm"  role="form">
+
+					<h4>&nbsp; Student Information </h4>
+					<div class="alert alert-success alert-dismissable">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+						Student Created</div>
+
+					<hr>
+				   <div class="form-group">
+
+					    <label for="inputEmail3" class=" control-label">Email</label>
+					    <div class="">
+					      <input type="email" class="form-control" name="email" placeholder="email">
+					    </div>
+  				    </div>
+
+  				    <div class="form-group">
+					    <label for="inputEmail3" class="control-label">First Name</label>
+					    <div class="">
+					      <input class="form-control" name="firstName" placeholder="first name">
+					    </div>
+  				    </div>
+
+  				    <div class="form-group">
+					    <label for="inputEmail3" class="control-label">Last Name</label>
+					    <div class="">
+					      <input class="form-control" name="lastName" placeholder="last name">
+					    </div>
+  				    </div>
+
+  				    <div class="form-group">
+					    <label for="inputEmail3" class="control-label">Grade</label>
+					    <div class="">
+					      <select class="form-control" id="grade">
+							  <option>Freshman</option>
+							  <option>Sophmore</option>
+							  <option>Junior</option>
+							  <option>Senior</option>
+						  </select>
+					    </div>
+  				    </div>
+
+  				    <div class="form-group">
+					    <label  class=" control-label">Gender</label>
+					    <div class="">
+					      <select class="form-control " id="gender">
+							  <option>Female</option>
+							  <option>Male</option>
+						  </select>
+					    </div>
+  				    </div>
+
+  				    <div class="form-group" >
+  				    	<label  class=" control-label"> Simple Questions</label>
+  				    	<div id="simpleQuestions" >
+
+  				    	</div>
+
+  				    </div>
+
+  				    <div class="form-group" >
+  				     	<label  class=" control-label"></label>
+  				     </div>
+
+  				    <div class="form-group" >
+  				    	<label  class=" control-label"> Special Questions</label>
+  				    	<div id="specialQuestions" >
+
+  				    	</div>
+
+  				     </div>
+
+  				     <div class="form-group" >
+  				     	<label  class=" control-label"></label>
+  				     </div>
+
+				  <button id="sub" class="btn btn-default">Submit</button>
+				  <br> <br>
+				</form>
+				</div>
+			</div><!--  col -->
+
+
+			<div class=" col-md-12 col-sm-12">
+				<br>
+				<div class="panel panel-default">
+				  <div class="panel-heading">Students </div>
+				 	<div class="panel-body"> </div>
+
+				  <ul class="list-group" id="addingList">
+
+				  </ul>
+				</div>
+
+			</div>
+
+			
+		</div> <!--  row -->
+
+</div> <!-- myContainer -->
+
+
+<!-- 				  <div class="form-group">
+				    <label for="exampleInputFile">Image input</label>
+				    <input type="file" id="exampleInputFile">
+				    <p class="help-block">Example block-level help text here.</p>
+				  </div> -->
+

@@ -1,0 +1,115 @@
+form {
+  width: 400px;
+}
+
+.blackBorder{
+	border: solid black 2px;
+	border-radius: 5px;
+}
+
+#myCanvas{
+  border:5px solid #d3d3d3;
+  background-color: red;
+}
+
+.redi{
+	color:#339933;
+	font-family: "Georgia";
+}
+
+.reds{
+	color:green;
+}
+
+.trueRed{
+	color:red;
+}
+
+.greens{
+	color:green;
+}
+
+.purples{
+	color:purple;
+}
+
+.oranges {
+	color:orange;
+}
+
+
+.centerText{
+	text-align: center;
+}
+
+.justifyText{
+	text-align: justify;
+}
+
+.myContainer{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.click{
+	cursor: pointer;
+}
+
+.up{
+	text-transform:capitalize;
+}
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+
+.cta-button {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 15px 20px;
+  background: #39a724;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0;
+}
+.cta-button:hover {
+  background: #21af04;
+}
+
+.one{
+	  background: url(../img/background.jpg) no-repeat ; 
+    min-height: 400px;
+}
+
+.grayDiv{
+	color:white; 
+	background:rgba(0,0,0,0.5);
+	padding: 10px;
+	border-radius:5px;
+}
+
+/*---------------------D3.JS-----------------------*/
+.chart {
+  background: #b0e0f8;
+  margin: 5px;
+  border-radius: 5px;
+  border: solid black 1px;
+}
+
+
+.chart rect {
+  stroke: black;
+  fill: steelblue;
+  border-radius: 5px;
+}
+
+.chart text {
+  fill: white;
+  font: 12px sans-serif;
+  text-anchor: end;
+}

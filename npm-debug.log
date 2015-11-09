@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'captchagen' ]
+2 info using npm@1.1.48
+3 info using node@v0.8.6
+4 verbose config file /Users/Abraham/.npmrc
+5 verbose config file /usr/local/etc/npmrc
+6 verbose config file /usr/local/lib/node_modules/npm/npmrc
+7 verbose read json /Users/Abraham/development/reaganmatch/package.json
+8 warn package.json my-social-network@0.0.1 No README.md file found!
+9 verbose read json /Users/Abraham/development/reaganmatch/node_modules/connect/package.json
+10 verbose read json /Users/Abraham/development/reaganmatch/node_modules/express/package.json
+11 verbose read json /Users/Abraham/development/reaganmatch/node_modules/jade/package.json
+12 verbose read json /Users/Abraham/development/reaganmatch/node_modules/match.js/package.json
+13 verbose read json /Users/Abraham/development/reaganmatch/node_modules/mongoose/package.json
+14 verbose read json /Users/Abraham/development/reaganmatch/node_modules/nodemailer/package.json
+15 verbose from cache /Users/Abraham/development/reaganmatch/package.json
+16 verbose readDependencies using package.json deps
+17 verbose cache add [ 'captchagen', null ]
+18 silly cache add name=undefined spec="captchagen" args=["captchagen",null]
+19 verbose parsed url { pathname: 'captchagen',
+19 verbose parsed url   path: 'captchagen',
+19 verbose parsed url   href: 'captchagen' }
+20 silly lockFile 4fc9edd3-captchagen captchagen
+21 verbose lock captchagen /Users/Abraham/.npm/4fc9edd3-captchagen.lock
+22 silly lockFile 4fc9edd3-captchagen captchagen
+23 verbose addNamed [ 'captchagen', '' ]
+24 verbose addNamed [ null, '' ]
+25 silly lockFile ff5fc4b7-captchagen captchagen@
+26 verbose lock captchagen@ /Users/Abraham/.npm/ff5fc4b7-captchagen.lock
+27 silly addNameRange { name: 'captchagen', range: '', hasData: false }
+28 verbose url raw captchagen
+29 verbose url resolving [ 'https://registry.npmjs.org/', './captchagen' ]
+30 verbose url resolved https://registry.npmjs.org/captchagen
+31 info retry registry request attempt 1 at 23:22:21
+32 http GET https://registry.npmjs.org/captchagen
+33 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+34 info retry registry request attempt 2 at 23:22:31
+35 http GET https://registry.npmjs.org/captchagen
+36 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+37 info retry registry request attempt 3 at 23:23:31
+38 http GET https://registry.npmjs.org/captchagen
+39 silly lockFile ff5fc4b7-captchagen captchagen@
+40 error Error: SSL Error: CERT_UNTRUSTED
+40 error     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:440:26)
+40 error     at ClientRequest.g (events.js:185:14)
+40 error     at ClientRequest.EventEmitter.emit (events.js:88:17)
+40 error     at HTTPParser.parserOnIncomingClient [as onIncoming] (http.js:1455:7)
+40 error     at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:111:23)
+40 error     at CleartextStream.socketOnData [as ondata] (http.js:1366:20)
+40 error     at CleartextStream.CryptoStream._push (tls.js:485:27)
+40 error     at SecurePair.cycle (tls.js:839:20)
+40 error     at EncryptedStream.CryptoStream.write (tls.js:220:13)
+40 error     at Socket.ondata (stream.js:38:26)
+41 error If you need help, you may report this log at:
+41 error     <http://github.com/isaacs/npm/issues>
+41 error or email it to:
+41 error     <npm-@googlegroups.com>
+42 error System Darwin 11.4.2
+43 error command "node" "/usr/local/bin/npm" "install" "captchagen"
+44 error cwd /Users/Abraham/development/reaganmatch
+45 error node -v v0.8.6
+46 error npm -v 1.1.48
+47 verbose exit [ 1, true ]
